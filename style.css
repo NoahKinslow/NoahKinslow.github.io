@@ -1,0 +1,31 @@
+:root {
+    background-color: #181a1b;
+    color: rgb(232 232 232);
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+a {
+    color: #4478b9;
+}
+
+a:visited {
+    color: #224877;
+}
+
+div {
+    padding: 10px;
+}
+
+span {
+    font-size: 22px;
+}
+
+#resume {
+    font-size: 20px;
+}
+
+ul {
+    padding: 5px;
+    list-style-type:none;
+}
