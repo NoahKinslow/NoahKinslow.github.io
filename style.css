@@ -29,3 +29,108 @@ ul {
     padding: 5px;
     list-style-type:none;
 }
+
+/* typewriter animation adapted from: https://css-tricks.com/snippets/css/typewriter-effect/ */
+.typewriterA {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+}
+
+.typewriterB {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(20, end);
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    
+}
+
+.typewriterC {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .10em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+  
+.typewriterD {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 9s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.typewriterE {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 12s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.typewriterF {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 13s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.typewriterG {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 15s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.typewriterH {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 17s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.typewriterI {
+    overflow: hidden;    
+    white-space: nowrap;    
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end);
+    animation-delay: 20s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    from { visibility: hidden }
+    to { width: 90% }
+    to { visibility: visible }
+}
