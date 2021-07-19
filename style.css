@@ -10,7 +10,7 @@ a {
 }
 
 a:visited {
-    color: #224877;
+    color: #295b99;
 }
 
 div {
@@ -18,11 +18,16 @@ div {
 }
 
 span {
-    font-size: 22px;
+    font-size: 26px;
 }
 
 #resume {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+
+#introHeader {
+    font-size: 30px;
 }
 
 ul {
@@ -45,7 +50,7 @@ ul {
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(20, end);
-    animation-delay: 3s;
+    animation-delay: 2s;
     visibility: hidden;
     animation-fill-mode: forwards;
     
@@ -57,7 +62,7 @@ ul {
     letter-spacing: .10em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 3s;
+    animation-delay: 2s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
@@ -68,7 +73,7 @@ ul {
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 9s;
+    animation-delay: 5s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
@@ -79,7 +84,7 @@ ul {
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 12s;
+    animation-delay: 7s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
@@ -87,10 +92,11 @@ ul {
 .typewriterF {
     overflow: hidden;    
     white-space: nowrap;    
+    margin: 5px;
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 13s;
+    animation-delay: 10s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
@@ -101,7 +107,7 @@ ul {
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 15s;
+    animation-delay: 12s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
@@ -112,7 +118,7 @@ ul {
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 17s;
+    animation-delay: 12s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
@@ -123,7 +129,7 @@ ul {
     letter-spacing: .15em;
     animation: 
         typing 3.5s steps(40, end);
-    animation-delay: 20s;
+    animation-delay: 18s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
